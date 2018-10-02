@@ -10,7 +10,7 @@ KERN_ARCH=$(uname -m)
 COIN_TGZ="https://github.com/authoracoin/authoracoin/releases/download/v1.0.0.0/authoracoind-1.0.0.0-${KERN_ARCH}-linux.tar.gz"
 
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='AuthoraCoin'
+COIN_NAME='ATH'
 COIN_PORT=23854
 RPC_PORT=36557
 
