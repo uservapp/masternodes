@@ -45,22 +45,22 @@ masternode start-alias MN1
 ```
 14. Login to your VPS and check your masternode status by running the following command:
 ```
-ATH-cli masternode status
+authoracoin-cli masternode status
 ```
 ***
 
 ## Usage:
 ```
-ATH-cli masternode status  
-ATH-cli getinfo
+authoracoin-cli masternode status  
+authoracoin-cli getinfo
 ```
 Also, if you want to check/start/stop **ATH**, run one of the following commands as **root**:
 
 ```
-systemctl status ATH #To check if AuthoraCoin service is running  
-systemctl start ATH #To start AuthoraCoin service  
-systemctl stop ATH #To stop AuthoraCoin service  
-systemctl is-enabled ATH #To check if AuthoraCoin service is enabled on boot  
+systemctl status authoracoind #To check if AuthoraCoin service is running  
+systemctl start authoracoind #To start AuthoraCoin service  
+systemctl stop authoracoind #To stop AuthoraCoin service  
+systemctl is-enabled authoracoind #To check if AuthoraCoin service is enabled on boot  
 ```  
 ***
 
